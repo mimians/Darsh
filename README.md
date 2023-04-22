@@ -59,7 +59,7 @@ https://testscan.bt.io/#/contract/0x0725a33f555197adc2eff28476f347b751c3e69d
 
 **Customed Repayment:** loan repayments are ease for borrowers to reassess their collateralized asset anytime once repaid. Repayments can be paid in proportions or once within the loan duration specified.
 
-[learn more](https://darshprotocol.gitbook.io/product-docs)
+
 
 ## LendingPool contract
 The LendingPool contract is the main point of interaction with the DARSH protocol's market.
@@ -109,7 +109,7 @@ A platform fee of 5% will be deducted from interests paid by borrowers.
 ![Desktop - 102](https://user-images.githubusercontent.com/123966451/222903213-1e17b8cc-4cf8-49e4-b87d-dec96e7050ef.png)
 ![Desktop - 83](https://user-images.githubusercontent.com/123966451/222903216-c726512a-c815-4fa8-b533-0fe76bca9f13.png)
 
-[checkout full demo here](https://darshprotocol.netlify.app)
+
 
 ## Development
 Create a `.env` like the `.env-example` and update with valid keys and mnemonic/phrase or private key
