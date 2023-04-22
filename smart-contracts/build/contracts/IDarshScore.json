@@ -1,0 +1,180 @@
+{
+  "contractName": "IDarshScore",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "user",
+          "type": "address"
+        }
+      ],
+      "name": "getScore",
+      "outputs": [
+        {
+          "internalType": "uint16",
+          "name": "",
+          "type": "uint16"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"user\",\"type\":\"address\"}],\"name\":\"getScore\",\"outputs\":[{\"internalType\":\"uint16\",\"name\":\"\",\"type\":\"uint16\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/interfaces/IDarshScore.sol\":\"IDarshScore\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"project:/contracts/interfaces/IDarshScore.sol\":{\"keccak256\":\"0x7b6e4adef4f2ffaa0cd0b25a627133084435f7ea125235210d3dd2726192d431\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://284aba3b6cf281f913bc643ab2d48e6b8d7e6558890061baecc0ab43c300bb6f\",\"dweb:/ipfs/QmfEzxpCLAXvhbCCs9FxmJGxBLXMeZNydGrizHTLUkbD58\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.17;\r\n\r\ninterface IDarshScore {\r\n    function getScore(address user) external view returns (uint16);\r\n}\r\n",
+  "sourcePath": "C:\\Users\\DELL\\Documents\\darsh\\smart-contracts\\contracts\\interfaces\\IDarshScore.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/interfaces/IDarshScore.sol",
+    "exportedSymbols": {
+      "IDarshScore": [
+        8455
+      ]
+    },
+    "id": 8456,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 8447,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:31"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IDarshScore",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 8455,
+        "linearizedBaseContracts": [
+          8455
+        ],
+        "name": "IDarshScore",
+        "nameLocation": "71:11:31",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "d47875d0",
+            "id": 8454,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getScore",
+            "nameLocation": "99:8:31",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 8450,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 8449,
+                  "mutability": "mutable",
+                  "name": "user",
+                  "nameLocation": "116:4:31",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8454,
+                  "src": "108:12:31",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 8448,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "108:7:31",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "107:14:31"
+            },
+            "returnParameters": {
+              "id": 8453,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 8452,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8454,
+                  "src": "145:6:31",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint16",
+                    "typeString": "uint16"
+                  },
+                  "typeName": {
+                    "id": 8451,
+                    "name": "uint16",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "145:6:31",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint16",
+                      "typeString": "uint16"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "144:8:31"
+            },
+            "scope": 8455,
+            "src": "90:63:31",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 8456,
+        "src": "61:95:31",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:125:31"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.11",
+  "updatedAt": "2023-03-06T17:44:41.167Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
