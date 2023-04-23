@@ -140,6 +140,9 @@ Create a `.env` like the `.env-example` and update with valid keys and mnemonic/
 - Start node backend
 > npm run start
 
+- Where to run?
+> You need a local server (Locally in dev), VPS or Dedicated server.
+
 ## Stacks
  | Smart contract | Frontend | Backend | Design | Cloud services |
  |--|--|--| -- |--|
